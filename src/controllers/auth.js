@@ -54,7 +54,7 @@ export const signIn = async (req, res) => {
 };
 
 export const googleSign = async (req, res) => {
-  res.status(200).json(config.origin);
+  res.status(200).redirect(config.origin);
 };
 
 export const forgotPassword = async (req, res) => {
