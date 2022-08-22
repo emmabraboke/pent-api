@@ -94,12 +94,13 @@ export const notHelpful = async (req, res) => {
 
       //After removing the vote the cookie is deleted
       res.clearCookie('reviews');
+      return res.status(200).json('vote removed');
     } catch (error) {
       throw new BadRequestError(error);
     }
   }
 
-  return res.status(200).json('vote removed');
+  res.status(200).json('You have not voted');
 };
 
 export const updateReview = async (req, res) => {
