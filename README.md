@@ -14,7 +14,7 @@ Pent is a hypothetical platform where users can sign up with their basic informa
 
 ## View Documentation
 
-...
+[https://documenter.getpostman.com/view/22832607/VUqptd3A]
 
 ## Technologies and Dependencies
 

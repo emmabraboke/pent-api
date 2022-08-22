@@ -52,7 +52,7 @@ app.use(passport.session());
 app.get('/', (req, res) => {
   res.status(200).send(`
   <div style='text-align: center; margin-top: 20px;'><h1>Pent API</h1> 
-  <p>View <a href='#' target=_blank>Documentation</a></p>
+  <p>View <a href='https://documenter.getpostman.com/view/22832607/VUqptd3A' target=_blank>Documentation</a></p>
   </div>`);
 });
 app.use('/', indexRoute);

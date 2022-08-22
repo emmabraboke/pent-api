@@ -34,7 +34,7 @@ route.post(
 
 route.post('/forgotPassword', forgotPassword);
 route.post('/reset', resetPassword);
-route.post('/password', changePassword);
+route.post('/password', authentication, changePassword);
 route.get('/logOut', logOut);
 
 route.get(
